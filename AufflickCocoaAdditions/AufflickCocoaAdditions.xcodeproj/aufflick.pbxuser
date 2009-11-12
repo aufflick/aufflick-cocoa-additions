@@ -152,6 +152,27 @@
 			6422A5D710AC2C3C00F06492 /* PBXTextBookmark */ = 6422A5D710AC2C3C00F06492 /* PBXTextBookmark */;
 			6422A5D810AC2C3C00F06492 /* PBXTextBookmark */ = 6422A5D810AC2C3C00F06492 /* PBXTextBookmark */;
 			6422A5D910AC2C3C00F06492 /* PBXTextBookmark */ = 6422A5D910AC2C3C00F06492 /* PBXTextBookmark */;
+			6422A5DC10AC2CF900F06492 /* PBXTextBookmark */ = 6422A5DC10AC2CF900F06492 /* PBXTextBookmark */;
+			6422A5DD10AC2CF900F06492 /* PBXTextBookmark */ = 6422A5DD10AC2CF900F06492 /* PBXTextBookmark */;
+			6422A5DE10AC2D4200F06492 /* PBXTextBookmark */ = 6422A5DE10AC2D4200F06492 /* PBXTextBookmark */;
+			6422A5DF10AC2D4200F06492 /* PBXBookmark */ = 6422A5DF10AC2D4200F06492 /* PBXBookmark */;
+			6422A5E010AC2D4200F06492 /* PlistBookmark */ = 6422A5E010AC2D4200F06492 /* PlistBookmark */;
+			6422A5E710AC2D5F00F06492 /* PlistBookmark */ = 6422A5E710AC2D5F00F06492 /* PlistBookmark */;
+			6422A5EA10AC2D8800F06492 /* PBXTextBookmark */ = 6422A5EA10AC2D8800F06492 /* PBXTextBookmark */;
+			6422A5EB10AC2D8800F06492 /* PBXTextBookmark */ = 6422A5EB10AC2D8800F06492 /* PBXTextBookmark */;
+			6422A5F410AC2DC300F06492 /* PBXTextBookmark */ = 6422A5F410AC2DC300F06492 /* PBXTextBookmark */;
+			6422A5F710AC2E5100F06492 /* PBXTextBookmark */ = 6422A5F710AC2E5100F06492 /* PBXTextBookmark */;
+			6422A5F910AC2E5100F06492 /* PBXTextBookmark */ = 6422A5F910AC2E5100F06492 /* PBXTextBookmark */;
+			6422A5FD10AC2E6D00F06492 /* PBXTextBookmark */ = 6422A5FD10AC2E6D00F06492 /* PBXTextBookmark */;
+			6422A60210AC2E8B00F06492 /* PBXTextBookmark */ = 6422A60210AC2E8B00F06492 /* PBXTextBookmark */;
+			6422A60B10AC2ED900F06492 /* PBXTextBookmark */ = 6422A60B10AC2ED900F06492 /* PBXTextBookmark */;
+			6422A60C10AC2ED900F06492 /* PlistBookmark */ = 6422A60C10AC2ED900F06492 /* PlistBookmark */;
+			6422A60D10AC2ED900F06492 /* PlistBookmark */ = 6422A60D10AC2ED900F06492 /* PlistBookmark */;
+			6422A60E10AC2ED900F06492 /* PlistBookmark */ = 6422A60E10AC2ED900F06492 /* PlistBookmark */;
+			6422A61610AC2F1800F06492 /* PlistBookmark */ = 6422A61610AC2F1800F06492 /* PlistBookmark */;
+			6422A61710AC2F1800F06492 /* PlistBookmark */ = 6422A61710AC2F1800F06492 /* PlistBookmark */;
+			6422A61F10AC2F5F00F06492 /* PlistBookmark */ = 6422A61F10AC2F5F00F06492 /* PlistBookmark */;
+			6422A62610AC2F8200F06492 /* PlistBookmark */ = 6422A62610AC2F8200F06492 /* PlistBookmark */;
 		};
 		sourceControlManager = 6422A4C610AC151600F06492 /* Source Control */;
 		userBuildSettings = {
@@ -182,7 +203,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {803, 1534}}";
 			sepNavSelRange = "{336, 0}";
-			sepNavVisRange = "{0, 2739}";
+			sepNavVisRange = "{0, 2012}";
 		};
 	};
 	6422A4E710AC161200F06492 /* PBXTextBookmark */ = {
@@ -234,9 +255,9 @@
 	};
 	6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {727, 1222}}";
-			sepNavSelRange = "{790, 0}";
-			sepNavVisRange = "{0, 2453}";
+			sepNavIntBoundsRect = "{{0, 0}, {800, 2210}}";
+			sepNavSelRange = "{1827, 29}";
+			sepNavVisRange = "{170, 170}";
 		};
 	};
 	6422A50910AC18A100F06492 /* PBXTextBookmark */ = {
@@ -326,9 +347,9 @@
 		path = /Developer/Tools/RunPlatformUnitTests.include;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 5967}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 6136}}";
 			sepNavSelRange = "{16022, 135}";
-			sepNavVisRange = "{0, 0}";
+			sepNavVisRange = "{15690, 523}";
 		};
 	};
 	6422A51710AC192000F06492 /* PBXTextBookmark */ = {
@@ -1047,6 +1068,231 @@
 		rType = 0;
 		vrLen = 2453;
 		vrLoc = 0;
+	};
+	6422A5DC10AC2CF900F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2739;
+		vrLoc = 0;
+	};
+	6422A5DD10AC2CF900F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2739;
+		vrLoc = 0;
+	};
+	6422A5DE10AC2D4200F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2739;
+		vrLoc = 0;
+	};
+	6422A5DF10AC2D4200F06492 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6422A4D710AC158500F06492 /* NSString+Levenshtein Unit Test-Info.plist */;
+	};
+	6422A5E010AC2D4200F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A4D710AC158500F06492 /* NSString+Levenshtein Unit Test-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/NSString+Levenshtein/NSString+Levenshtein Unit Test-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A5E710AC2D5F00F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A4D710AC158500F06492 /* NSString+Levenshtein Unit Test-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/NSString+Levenshtein/NSString+Levenshtein Unit Test-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A5EA10AC2D8800F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2739;
+		vrLoc = 0;
+	};
+	6422A5EB10AC2D8800F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2739;
+		vrLoc = 0;
+	};
+	6422A5F410AC2DC300F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2739;
+		vrLoc = 0;
+	};
+	6422A5F710AC2E5100F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A5F810AC2E5100F06492 /* RunPlatformUnitTests.include */;
+		name = "RunPlatformUnitTests.include: 451";
+		rLen = 135;
+		rLoc = 16022;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 15690;
+	};
+	6422A5F810AC2E5100F06492 /* RunPlatformUnitTests.include */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = RunPlatformUnitTests.include;
+		path = /Developer/Tools/RunPlatformUnitTests.include;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 6136}}";
+			sepNavSelRange = "{16022, 135}";
+			sepNavVisRange = "{15690, 523}";
+		};
+	};
+	6422A5F910AC2E5100F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A51410AC18BA00F06492 /* RunPlatformUnitTests.include */;
+		name = "RunPlatformUnitTests.include: 451";
+		rLen = 135;
+		rLoc = 16022;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 15690;
+	};
+	6422A5FD10AC2E6D00F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A5F810AC2E5100F06492 /* RunPlatformUnitTests.include */;
+		name = "RunPlatformUnitTests.include: 451";
+		rLen = 135;
+		rLoc = 16022;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 15690;
+	};
+	6422A60210AC2E8B00F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A5F810AC2E5100F06492 /* RunPlatformUnitTests.include */;
+		name = "RunPlatformUnitTests.include: 451";
+		rLen = 135;
+		rLoc = 16022;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 15690;
+	};
+	6422A60B10AC2ED900F06492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */;
+		name = "NSString+Levenshtein.m: 12";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 2012;
+		vrLoc = 0;
+	};
+	6422A60C10AC2ED900F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A60D10AC2ED900F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A53610AC1A1800F06492 /* UnitTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Scaffolding/UnitTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A60E10AC2ED900F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A53610AC1A1800F06492 /* UnitTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Scaffolding/UnitTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A61610AC2F1800F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A53610AC1A1800F06492 /* UnitTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Scaffolding/UnitTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A61710AC2F1800F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A53610AC1A1800F06492 /* UnitTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Scaffolding/UnitTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A61F10AC2F5F00F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A53610AC1A1800F06492 /* UnitTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Scaffolding/UnitTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6422A62610AC2F8200F06492 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6422A53610AC1A1800F06492 /* UnitTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/AufflickCocoaAdditions/Scaffolding/UnitTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	8DC2EF4F0486A6940098B216 /* AufflickCocoaAdditions */ = {
 		activeExec = 0;
