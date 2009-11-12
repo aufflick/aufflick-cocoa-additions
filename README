@@ -1,0 +1,5 @@
+This project will hold various helpful* Cocoa/Objective-C classes and other related things.
+
+At the moment all files are standalone classes, but they are included in the AufflickCocoaAdditions project so they can be bundled with tests etc.
+
+* I must have found them helpful, otherwise I wouldn't have bothered. YMMV.
