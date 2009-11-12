@@ -43,58 +43,58 @@
 
 -(void)testExactMatch
 {
-	STAssertEquals([@"foo" asciiLevenshteinDistanceWithString:@"foo"],
-				   (float)0.0,
-				   @"exact match => 0");
+    STAssertEquals([@"foo" asciiLevenshteinDistanceWithString:@"foo"],
+                   (float)0.0,
+                   @"exact match => 0");
 }
 
 -(void)testNilStringB
 {
-	STAssertEquals([@"foo" asciiLevenshteinDistanceWithString:nil],
-				   (float)LEV_INF_DISTANCE,
-				   @"nil StringB => LEV_INF_DISTANCE");
+    STAssertEquals([@"foo" asciiLevenshteinDistanceWithString:nil],
+                   (float)LEV_INF_DISTANCE,
+                   @"nil StringB => LEV_INF_DISTANCE");
 }
 
 - (void)testSmallDiff
 {
-	STAssertEquals([@"foo" asciiLevenshteinDistanceWithString:@"food"],
-					(float)1.0,
-					@"1 char added => 1");
+    STAssertEquals([@"foo" asciiLevenshteinDistanceWithString:@"food"],
+                    (float)1.0,
+                    @"1 char added => 1");
 }
 
 // test skipping of charset
 -(void)testSkippingCharset
 {
-	NSCharacterSet *charset = [NSCharacterSet characterSetWithCharactersInString:@"123"];
-	
-	STAssertEquals([@"abc123def" asciiLevenshteinDistanceWithString:@"abcdef"
-											   skippingCharacterSet:charset],
-				   (float)0.0,
-				   @"tested skippingCharacterSet:");
+    NSCharacterSet *charset = [NSCharacterSet characterSetWithCharactersInString:@"123"];
+    
+    STAssertEquals([@"abc123def" asciiLevenshteinDistanceWithString:@"abcdef"
+                                               skippingCharacterSet:charset],
+                   (float)0.0,
+                   @"tested skippingCharacterSet:");
 }
 
 // test that non-ascii is normalised
 -(void)testAccents
 {
-	STAssertEquals([@"flubber" asciiLevenshteinDistanceWithString:@"flübbér"],
-				   (float)0.0,
-				   @"non-ascii characters are normalised");
+    STAssertEquals([@"flubber" asciiLevenshteinDistanceWithString:@"flübbér"],
+                   (float)0.0,
+                   @"non-ascii characters are normalised");
 }
 
 // examples from Wikipedia Levenshtein page
 
 - (void)testKittens
 {
-	STAssertEquals([@"kitten" asciiLevenshteinDistanceWithString:@"sitting"],
-				   (float)3.0,
-				   @"kitten -> sitting => 3");
+    STAssertEquals([@"kitten" asciiLevenshteinDistanceWithString:@"sitting"],
+                   (float)3.0,
+                   @"kitten -> sitting => 3");
 }
 
 - (void)testWeekend
 {
-	STAssertEquals([@"Saturday" asciiLevenshteinDistanceWithString:@"Sunday"],
-				   (float)3.0,
-				   @"Saturday -> Sunday => 3");
+    STAssertEquals([@"Saturday" asciiLevenshteinDistanceWithString:@"Sunday"],
+                   (float)3.0,
+                   @"Saturday -> Sunday => 3");
 }
 
 @end
