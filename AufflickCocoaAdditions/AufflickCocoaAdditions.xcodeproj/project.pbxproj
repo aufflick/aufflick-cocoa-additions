@@ -81,7 +81,8 @@
 		0867D691FE84028FC02AAC07 /* AufflickCocoaAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				64E2975311B629A900463AFB /* GUI */,
+				64D91D4E122616DF0013DA1A /* iPhone GUI */,
+				64E2975311B629A900463AFB /* Mac GUI */,
 				6422A4EA10AC162E00F06492 /* Unit tests */,
 				6422A4CA10AC154200F06492 /* NSString+Levenshtein */,
 				6422A4C910AC153000F06492 /* Scaffolding */,
@@ -172,7 +173,14 @@
 			name = "Unit tests";
 			sourceTree = "<group>";
 		};
-		64E2975311B629A900463AFB /* GUI */ = {
+		64D91D4E122616DF0013DA1A /* iPhone GUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "iPhone GUI";
+			sourceTree = "<group>";
+		};
+		64E2975311B629A900463AFB /* Mac GUI */ = {
 			isa = PBXGroup;
 			children = (
 				64E2973611B6249800463AFB /* MGAAutoScrollToTextField.h */,
@@ -180,7 +188,7 @@
 				64E2975411B629C100463AFB /* MGAAutoScrollToButton.h */,
 				64E2975511B629C100463AFB /* MGAAutoScrollToButton.m */,
 			);
-			name = GUI;
+			name = "Mac GUI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
