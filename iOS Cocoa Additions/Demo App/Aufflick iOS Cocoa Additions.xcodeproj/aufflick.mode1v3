@@ -277,8 +277,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>10</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DemoOfMGATableView.m</string>
+								<string>MGATableViewArrayDataSource.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DemoOfMGATableView.m</string>
+										<string>MGATableViewArrayDataSource.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>645BD851122C8EFA00E08F75</string>
+										<string>645BD868122C904D00E08F75</string>
 										<key>history</key>
 										<array>
 											<string>649724FD1227A1F5001B71B0</string>
@@ -346,9 +344,9 @@
 											<string>645BD831122C8C1D00E08F75</string>
 											<string>645BD833122C8C1D00E08F75</string>
 											<string>645BD83D122C8CB500E08F75</string>
-											<string>645BD844122C8D3300E08F75</string>
 											<string>645BD84C122C8EB100E08F75</string>
-											<string>645BD84D122C8EB100E08F75</string>
+											<string>645BD866122C904D00E08F75</string>
+											<string>645BD867122C904D00E08F75</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -546,7 +544,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>645BD852122C8EFA00E08F75</string>
 		<string>645BD828122C8C0900E08F75</string>
 		<string>645BD839122C8C1D00E08F75</string>
 		<string>645BD83A122C8C1D00E08F75</string>
@@ -572,30 +569,30 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>MGATableViewCellSubMenu.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {811, 233}}</string>
+								<string>{{0, 0}, {920, 635}}</string>
 								<key>RubberWindowFrame</key>
-								<string>589 479 811 515 0 0 1920 1178 </string>
+								<string>455 236 920 917 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>233pt</string>
+							<string>635pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -610,9 +607,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 238}, {811, 236}}</string>
+								<string>{{0, 640}, {920, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>589 479 811 515 0 0 1920 1178 </string>
+								<string>455 236 920 917 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -621,7 +618,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>474pt</string>
+					<string>876pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -644,7 +641,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>589 479 811 515 0 0 1920 1178 </string>
+			<string>455 236 920 917 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>64867C491226391B00734291</string>
 			<key>WindowToolIsVisible</key>

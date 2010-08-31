@@ -210,7 +210,7 @@
 
 + (id) headerWithString:(NSString *)string
 {
-    return [[self alloc] initWithString:string];
+    return [[[self alloc] initWithString:string] autorelease];
 }
 
 @end
@@ -219,7 +219,7 @@
 
 + (id) footerWithString:(NSString *)string
 {
-    return [[self alloc] initWithString:string];
+    return [[[self alloc] initWithString:string] autorelease];
 }
 
 @end
@@ -228,6 +228,6 @@
 
 + (id) sectionBreak
 {
-    return [[self alloc] initWithString:@""];
+    return [[[self alloc] initWithString:@""] autorelease];
 }
 @end

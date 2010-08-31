@@ -148,6 +148,12 @@
 			645BD84D122C8EB100E08F75 /* PBXTextBookmark */ = 645BD84D122C8EB100E08F75 /* PBXTextBookmark */;
 			645BD84E122C8EB100E08F75 /* PBXTextBookmark */ = 645BD84E122C8EB100E08F75 /* PBXTextBookmark */;
 			645BD851122C8EFA00E08F75 /* PBXTextBookmark */ = 645BD851122C8EFA00E08F75 /* PBXTextBookmark */;
+			645BD863122C904900E08F75 /* PBXTextBookmark */ = 645BD863122C904900E08F75 /* PBXTextBookmark */;
+			645BD864122C904900E08F75 /* XCBuildMessageTextBookmark */ = 645BD864122C904900E08F75 /* XCBuildMessageTextBookmark */;
+			645BD865122C904900E08F75 /* PBXTextBookmark */ = 645BD865122C904900E08F75 /* PBXTextBookmark */;
+			645BD866122C904D00E08F75 /* PBXTextBookmark */ = 645BD866122C904D00E08F75 /* PBXTextBookmark */;
+			645BD867122C904D00E08F75 /* XCBuildMessageTextBookmark */ = 645BD867122C904D00E08F75 /* XCBuildMessageTextBookmark */;
+			645BD868122C904D00E08F75 /* PBXTextBookmark */ = 645BD868122C904D00E08F75 /* PBXTextBookmark */;
 			649724FD1227A1F5001B71B0 = 649724FD1227A1F5001B71B0 /* PBXTextBookmark */;
 			649724FE1227A1F5001B71B0 = 649724FE1227A1F5001B71B0 /* PBXTextBookmark */;
 			649725271227A5BC001B71B0 = 649725271227A5BC001B71B0 /* PBXTextBookmark */;
@@ -167,9 +173,9 @@
 	};
 	643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {842, 1084}}";
-			sepNavSelRange = "{613, 0}";
-			sepNavVisRange = "{0, 1739}";
+			sepNavIntBoundsRect = "{{0, 0}, {859, 741}}";
+			sepNavSelRange = "{1259, 0}";
+			sepNavVisRange = "{171, 1636}";
 		};
 	};
 	643179C21227ABD300208E46 /* PBXTextBookmark */ = {
@@ -452,6 +458,64 @@
 		vrLen = 2756;
 		vrLoc = 357;
 	};
+	645BD863122C904900E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */;
+		name = "MGATableViewArrayDataSource.m: 231";
+		rLen = 0;
+		rLoc = 6230;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 5962;
+	};
+	645BD864122C904900E08F75 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Reference-counted object is used after it is released";
+		fRef = 643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 40;
+		rType = 1;
+	};
+	645BD865122C904900E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */;
+		name = "MGATableViewCellSubMenu.m: 33";
+		rLen = 0;
+		rLoc = 1259;
+		rType = 0;
+		vrLen = 1636;
+		vrLoc = 171;
+	};
+	645BD866122C904D00E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */;
+		name = "DemoOfMGATableView.m: 35";
+		rLen = 0;
+		rLoc = 1013;
+		rType = 0;
+		vrLen = 2759;
+		vrLoc = 357;
+	};
+	645BD867122C904D00E08F75 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Potential leak of an object allocated on line 213";
+		fRef = 64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 212;
+		rType = 1;
+	};
+	645BD868122C904D00E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */;
+		name = "MGATableViewArrayDataSource.m: 213";
+		rLen = 0;
+		rLoc = 5953;
+		rType = 0;
+		vrLen = 1956;
+		vrLoc = 4282;
+	};
 	64867C421226391900734291 /* Aufflick iOS Cocoa Additions */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -507,9 +571,9 @@
 	};
 	64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {842, 2873}}";
-			sepNavSelRange = "{5591, 0}";
-			sepNavVisRange = "{3159, 2596}";
+			sepNavIntBoundsRect = "{{0, 0}, {842, 2938}}";
+			sepNavSelRange = "{5953, 0}";
+			sepNavVisRange = "{4282, 1956}";
 		};
 	};
 	64867C8B12263DE700734291 /* MGATableView.h */ = {
@@ -550,8 +614,8 @@
 	649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {842, 1378}}";
-			sepNavSelRange = "{2727, 0}";
-			sepNavVisRange = "{357, 2756}";
+			sepNavSelRange = "{1013, 0}";
+			sepNavVisRange = "{357, 2759}";
 		};
 	};
 	649724FD1227A1F5001B71B0 /* PBXTextBookmark */ = {
