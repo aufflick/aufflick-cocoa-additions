@@ -8,10 +8,10 @@
 
 #import "MGATableViewArrayDataSource.h"
 
-
 @implementation MGATableViewArrayDataSource
 
 @synthesize dataArray, delegate;
+
 
 - (id)forwardingTargetForSelector:(SEL)sel
 {
@@ -64,6 +64,13 @@
     return [self.dataArray subarrayWithRange:[self contentRangeForSection:section]];
 }
 
+- (id)objectForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSArray *sectionContent = [self contentArrayForSection:indexPath.section];
+    
+    return [sectionContent objectAtIndex:indexPath.row];
+}
+
 #pragma mark -
 #pragma mark UITableViewDataSource methods
 
@@ -79,9 +86,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSArray *sectionContent = [self contentArrayForSection:indexPath.section];
+    id obj = [self objectForRowAtIndexPath:(NSIndexPath *)indexPath];
     
-    return [sectionContent objectAtIndex:indexPath.row];
+    if ([obj isKindOfClass:[MGATableViewCellContainer class]])
+        return ((MGATableViewCellContainer *)obj).cell;
+    
+    return obj;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -108,6 +118,74 @@
     return [obj isKindOfClass:[MGATableFooter class]] ? [(MGATableFooter *)obj string] : nil;
 }
 
+#pragma mark -
+#pragma mark UITableViewDelegate methods
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+    id obj = [self objectForRowAtIndexPath:indexPath];
+    
+    if (![obj isKindOfClass:[MGATableViewCellContainer class]])
+    {
+        if ([delegate respondsToSelector:@selector(tableView:accessoryButtonTappedForRowWithIndexPath:)])
+            [delegate tableView:tableView accessoryButtonTappedForRowWithIndexPath:indexPath];
+    }
+    else 
+    {
+        MGATableViewCellContainer *container = (MGATableViewCellContainer *)obj;
+    
+        if (container.accessoryTapActionBlock)
+            container.accessoryTapActionBlock();
+    }
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    id obj = [self objectForRowAtIndexPath:indexPath];
+    
+    if (![obj isKindOfClass:[MGATableViewCellContainer class]])
+    {
+        if ([delegate respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:)])
+            [delegate tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }
+    else 
+    {
+        MGATableViewCellContainer *container = (MGATableViewCellContainer *)obj;
+    
+        if (container.didSelectActionBlock)
+            container.didSelectActionBlock();
+    }
+}
+
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // if there is nothing to handle the selection, we will reject it
+    id obj = [self objectForRowAtIndexPath:indexPath];
+    
+    if (![obj isKindOfClass:[MGATableViewCellContainer class]])
+    {
+        if ([delegate respondsToSelector:@selector(tableView:willSelectRowAtIndexPath:)])
+            return [delegate tableView:tableView willSelectRowAtIndexPath:indexPath];
+        
+        if ([delegate respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:)])
+            return indexPath;
+    }
+    else 
+    {
+        MGATableViewCellContainer *container = (MGATableViewCellContainer *)obj;
+        
+        if (container.didSelectActionBlock)
+            return indexPath;
+    }
+    
+    return nil;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [self tableView:tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath].frame.size.height;
+}
 
 @end
 

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+#import "MGATableViewCellContainer.h"
 
 @interface MGATableViewArrayDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>
 {
@@ -19,6 +20,7 @@
 - (NSArray *)contentRanges;
 - (NSRange)contentRangeForSection:(NSInteger)section;
 - (NSArray *)contentArrayForSection:(NSInteger)section;
+- (id)objectForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 

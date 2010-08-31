@@ -15,8 +15,12 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		643179B01227A85300208E46 /* MGATableViewCellSubMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */; };
 		64867C6712263A3200734291 /* MGATableViewArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */; };
 		64867C8D12263DE700734291 /* MGATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64867C8C12263DE700734291 /* MGATableView.m */; };
+		64867CEC12267B3200734291 /* MGATableViewCellContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64867CEB12267B3200734291 /* MGATableViewCellContainer.m */; };
+		649724EC1227A08A001B71B0 /* DemoOfMGATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */; };
+		649724ED1227A08A001B71B0 /* DemoOfMGATableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649724EB1227A08A001B71B0 /* DemoOfMGATableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +36,17 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Scaffolding/main.m; sourceTree = "<group>"; };
+		643179AE1227A85300208E46 /* MGATableViewCellSubMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableViewCellSubMenu.h; sourceTree = "<group>"; };
+		643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableViewCellSubMenu.m; sourceTree = "<group>"; };
 		64867C6512263A3200734291 /* MGATableViewArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableViewArrayDataSource.h; sourceTree = "<group>"; };
 		64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableViewArrayDataSource.m; sourceTree = "<group>"; };
 		64867C8B12263DE700734291 /* MGATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableView.h; sourceTree = "<group>"; };
 		64867C8C12263DE700734291 /* MGATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableView.m; sourceTree = "<group>"; };
+		64867CEA12267B3200734291 /* MGATableViewCellContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableViewCellContainer.h; sourceTree = "<group>"; };
+		64867CEB12267B3200734291 /* MGATableViewCellContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableViewCellContainer.m; sourceTree = "<group>"; };
+		649724E91227A08A001B71B0 /* DemoOfMGATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOfMGATableView.h; sourceTree = "<group>"; };
+		649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOfMGATableView.m; sourceTree = "<group>"; };
+		649724EB1227A08A001B71B0 /* DemoOfMGATableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoOfMGATableView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Aufflick_iOS_Cocoa_Additions-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Aufflick_iOS_Cocoa_Additions-Info.plist"; path = "Scaffolding/Aufflick_iOS_Cocoa_Additions-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +70,9 @@
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				649724E91227A08A001B71B0 /* DemoOfMGATableView.h */,
+				649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */,
+				649724EB1227A08A001B71B0 /* DemoOfMGATableView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,6 +143,10 @@
 				64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */,
 				64867C8B12263DE700734291 /* MGATableView.h */,
 				64867C8C12263DE700734291 /* MGATableView.m */,
+				64867CEA12267B3200734291 /* MGATableViewCellContainer.h */,
+				64867CEB12267B3200734291 /* MGATableViewCellContainer.m */,
+				643179AE1227A85300208E46 /* MGATableViewCellSubMenu.h */,
+				643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */,
 			);
 			name = MGATableView;
 			path = ../MGATableView;
@@ -185,6 +203,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				649724ED1227A08A001B71B0 /* DemoOfMGATableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +219,9 @@
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				64867C6712263A3200734291 /* MGATableViewArrayDataSource.m in Sources */,
 				64867C8D12263DE700734291 /* MGATableView.m in Sources */,
+				64867CEC12267B3200734291 /* MGATableViewCellContainer.m in Sources */,
+				649724EC1227A08A001B71B0 /* DemoOfMGATableView.m in Sources */,
+				643179B01227A85300208E46 /* MGATableViewCellSubMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
