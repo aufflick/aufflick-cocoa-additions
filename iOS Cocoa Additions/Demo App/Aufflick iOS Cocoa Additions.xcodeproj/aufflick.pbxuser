@@ -37,6 +37,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 64867C421226391900734291 /* Aufflick iOS Cocoa Additions */;
+		activeSDKPreference = iphoneos4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Aufflick iOS Cocoa Additions */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Aufflick iOS Cocoa Additions */,
@@ -154,6 +155,10 @@
 			645BD866122C904D00E08F75 /* PBXTextBookmark */ = 645BD866122C904D00E08F75 /* PBXTextBookmark */;
 			645BD867122C904D00E08F75 /* XCBuildMessageTextBookmark */ = 645BD867122C904D00E08F75 /* XCBuildMessageTextBookmark */;
 			645BD868122C904D00E08F75 /* PBXTextBookmark */ = 645BD868122C904D00E08F75 /* PBXTextBookmark */;
+			645BD86D122C90A900E08F75 /* PBXTextBookmark */ = 645BD86D122C90A900E08F75 /* PBXTextBookmark */;
+			645BD870122C90EF00E08F75 /* PBXTextBookmark */ = 645BD870122C90EF00E08F75 /* PBXTextBookmark */;
+			645BD871122C90EF00E08F75 /* PBXTextBookmark */ = 645BD871122C90EF00E08F75 /* PBXTextBookmark */;
+			645BD872122C90EF00E08F75 /* PBXTextBookmark */ = 645BD872122C90EF00E08F75 /* PBXTextBookmark */;
 			649724FD1227A1F5001B71B0 = 649724FD1227A1F5001B71B0 /* PBXTextBookmark */;
 			649724FE1227A1F5001B71B0 = 649724FE1227A1F5001B71B0 /* PBXTextBookmark */;
 			649725271227A5BC001B71B0 = 649725271227A5BC001B71B0 /* PBXTextBookmark */;
@@ -175,7 +180,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {859, 741}}";
 			sepNavSelRange = "{1259, 0}";
-			sepNavVisRange = "{171, 1636}";
+			sepNavVisRange = "{171, 1631}";
 		};
 	};
 	643179C21227ABD300208E46 /* PBXTextBookmark */ = {
@@ -516,6 +521,46 @@
 		vrLen = 1956;
 		vrLoc = 4282;
 	};
+	645BD86D122C90A900E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */;
+		name = "MGATableViewCellSubMenu.m: 33";
+		rLen = 0;
+		rLoc = 1259;
+		rType = 0;
+		vrLen = 1631;
+		vrLoc = 171;
+	};
+	645BD870122C90EF00E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */;
+		name = "MGATableViewArrayDataSource.m: 213";
+		rLen = 0;
+		rLoc = 5953;
+		rType = 0;
+		vrLen = 1952;
+		vrLoc = 4282;
+	};
+	645BD871122C90EF00E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */;
+		name = "DemoOfMGATableView.m: 35";
+		rLen = 0;
+		rLoc = 1013;
+		rType = 0;
+		vrLen = 2756;
+		vrLoc = 357;
+	};
+	645BD872122C90EF00E08F75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */;
+		name = "DemoOfMGATableView.m: 50";
+		rLen = 32;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 2791;
+		vrLoc = 281;
+	};
 	64867C421226391900734291 /* Aufflick iOS Cocoa Additions */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -571,9 +616,9 @@
 	};
 	64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {842, 2938}}";
+			sepNavIntBoundsRect = "{{0, 0}, {842, 2951}}";
 			sepNavSelRange = "{5953, 0}";
-			sepNavVisRange = "{4282, 1956}";
+			sepNavVisRange = "{4282, 1952}";
 		};
 	};
 	64867C8B12263DE700734291 /* MGATableView.h */ = {
@@ -613,9 +658,9 @@
 	};
 	649724EA1227A08A001B71B0 /* DemoOfMGATableView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {842, 1378}}";
-			sepNavSelRange = "{1013, 0}";
-			sepNavVisRange = "{357, 2759}";
+			sepNavIntBoundsRect = "{{0, 0}, {842, 1313}}";
+			sepNavSelRange = "{1414, 32}";
+			sepNavVisRange = "{281, 2791}";
 		};
 	};
 	649724FD1227A1F5001B71B0 /* PBXTextBookmark */ = {
