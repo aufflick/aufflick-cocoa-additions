@@ -1,7 +1,0 @@
-This project will hold various helpful* Cocoa/Objective-C classes and other related things.
-
-There are two sub-directories. "Cocoa Additions" has general Objective-C classes as well as Mac-specific classes. "iOS Cocoa Additions" has iOS/UIKit specific classes.
-
-At the moment all files are standalone classes, but they are included in the AufflickCocoaAdditions project so they can be bundled with tests etc.
-
-* I must have found them helpful, otherwise I wouldn't have bothered. YMMV.
