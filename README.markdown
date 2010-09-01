@@ -12,10 +12,10 @@ At the moment all files are standalone classes, but they are included in the res
 iOS Cocoa Additions
 -------------------
 
-* [MGATableView](iOS Cocoa Additions/MGATableView) - makes generating simple table views, well simple. Eg. make a grouped table view menu with no datasource or delegate
+* [MGATableView](/iOS Cocoa Additions/MGATableView) - makes generating simple table views, well simple. Eg. make a grouped table view menu with no datasource or delegate
 
 Cocoa Additions
 ---------------
 
-* [NSString+Levenshtein](Cocoa Additions/NSString+Levenshtein) - do fuzzy string matching with Levenshtein distance on NSStrings
-* [MGAAutoScrollTo(TextField|Button)](Cocoa Additions/MGAAutoScroll) - scroll a parent scrollview to show a control when it becomes the firstResponder (eg. by tabbing)
+* [NSString+Levenshtein](tree/master/Cocoa Additions/NSString+Levenshtein) - do fuzzy string matching with Levenshtein distance on NSStrings
+* [MGAAutoScrollTo(TextField|Button)](tree/master/Cocoa Additions/MGAAutoScroll) - scroll a parent scrollview to show a control when it becomes the firstResponder (eg. by tabbing)
