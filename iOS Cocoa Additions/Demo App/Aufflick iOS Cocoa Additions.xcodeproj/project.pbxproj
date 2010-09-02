@@ -16,6 +16,7 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		643179B01227A85300208E46 /* MGATableViewCellSubMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */; };
+		645FACD1122F673F006E5B4A /* MGATableViewCellLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FACD0122F673F006E5B4A /* MGATableViewCellLabel.m */; };
 		64867C6712263A3200734291 /* MGATableViewArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */; };
 		64867C8D12263DE700734291 /* MGATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64867C8C12263DE700734291 /* MGATableView.m */; };
 		64867CEC12267B3200734291 /* MGATableViewCellContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64867CEB12267B3200734291 /* MGATableViewCellContainer.m */; };
@@ -38,6 +39,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Scaffolding/main.m; sourceTree = "<group>"; };
 		643179AE1227A85300208E46 /* MGATableViewCellSubMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableViewCellSubMenu.h; sourceTree = "<group>"; };
 		643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableViewCellSubMenu.m; sourceTree = "<group>"; };
+		645FACCF122F673F006E5B4A /* MGATableViewCellLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableViewCellLabel.h; sourceTree = "<group>"; };
+		645FACD0122F673F006E5B4A /* MGATableViewCellLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableViewCellLabel.m; sourceTree = "<group>"; };
 		64867C6512263A3200734291 /* MGATableViewArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableViewArrayDataSource.h; sourceTree = "<group>"; };
 		64867C6612263A3200734291 /* MGATableViewArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGATableViewArrayDataSource.m; sourceTree = "<group>"; };
 		64867C8B12263DE700734291 /* MGATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGATableView.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				64867C8C12263DE700734291 /* MGATableView.m */,
 				64867CEA12267B3200734291 /* MGATableViewCellContainer.h */,
 				64867CEB12267B3200734291 /* MGATableViewCellContainer.m */,
+				645FACCF122F673F006E5B4A /* MGATableViewCellLabel.h */,
+				645FACD0122F673F006E5B4A /* MGATableViewCellLabel.m */,
 				643179AE1227A85300208E46 /* MGATableViewCellSubMenu.h */,
 				643179AF1227A85300208E46 /* MGATableViewCellSubMenu.m */,
 			);
@@ -222,6 +227,7 @@
 				64867CEC12267B3200734291 /* MGATableViewCellContainer.m in Sources */,
 				649724EC1227A08A001B71B0 /* DemoOfMGATableView.m in Sources */,
 				643179B01227A85300208E46 /* MGATableViewCellSubMenu.m in Sources */,
+				645FACD1122F673F006E5B4A /* MGATableViewCellLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,8 @@
 
 #import "MGATableViewArrayDataSource.h"
 #import "MGATableViewCellSubMenu.h"
+#import "MGATableViewCellLabel.h"
+
 
 @interface MGATableView : UITableView
 {

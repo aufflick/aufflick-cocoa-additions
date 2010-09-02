@@ -22,7 +22,7 @@
     UITableViewCell *cell1 = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell1"];
     cell1.textLabel.text = @"NSLog(@\"FTW!\")";
     
-    MGATableViewCellContainer *cont1 = [MGATableViewCellContainer containerWithCell:cell1 andDidSelectActionBlock:^{
+    MGATableViewCellContainer *cont1 = [MGATableViewCellContainer containerWithCell:cell1 didSelectActionBlock:^{
         NSLog(@"FTW!");
         cell1.selected = NO;
     }];
@@ -45,7 +45,7 @@
     /*
      * cell4 is nib-based, wrapped in an MGATableViewCellContainer
      */
-    MGATableViewCellContainer *cont4 = [MGATableViewCellContainer containerWithCell:cell4 andDidSelectActionBlock:^{
+    MGATableViewCellContainer *cont4 = [MGATableViewCellContainer containerWithCell:cell4 didSelectActionBlock:^{
         [cell3Slider setValue:0 animated:YES];
         cell4Label.text = @"0";
         cell4.selected = NO;
@@ -62,6 +62,7 @@
                                          [MGATableHeader headerWithString:@"Section 1 Header"],
                                          cont1,
                                          cell2,
+                                         [MGATableViewCellLabel containerWithTitle:@"Also does nothing"],
                                          [MGATableFooter footerWithString:@"Section 1 Footer"],
                                          
                                          [MGATableHeader headerWithString:@"Section 2 Header"],

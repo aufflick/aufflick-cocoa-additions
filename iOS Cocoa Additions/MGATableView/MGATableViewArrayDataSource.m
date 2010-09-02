@@ -135,7 +135,7 @@
         MGATableViewCellContainer *container = (MGATableViewCellContainer *)obj;
     
         if (container.accessoryTapActionBlock)
-            container.accessoryTapActionBlock();
+            container.accessoryTapActionBlock(container.data);
     }
 }
 
@@ -154,7 +154,7 @@
         MGATableViewCellContainer *container = (MGATableViewCellContainer *)obj;
     
         if (container.didSelectActionBlock)
-            container.didSelectActionBlock();
+            container.didSelectActionBlock(container.data);
     }
 }
 

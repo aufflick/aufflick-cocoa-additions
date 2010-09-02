@@ -11,7 +11,7 @@
 
 @implementation MGATableViewCellContainer
 
-@synthesize cell, didSelectActionBlock, accessoryTapActionBlock;
+@synthesize cell, data, didSelectActionBlock, accessoryTapActionBlock;
 
 +(MGATableViewCellContainer *) containerWithCell:(UITableViewCell *)aCell
 {
@@ -19,22 +19,30 @@
 }
 
 +(MGATableViewCellContainer *) containerWithCell:(UITableViewCell *)aCell
-                         andDidSelectActionBlock:(void(^)(void))aDidSelectActionBlock
+                            didSelectActionBlock:(void(^)(void))aDidSelectActionBlock
+{
+    return [self containerWithCell:aCell data:nil didSelectActionBlock:^(id data){
+        aDidSelectActionBlock();
+    }];
+}
+
++(MGATableViewCellContainer *) containerWithCell:(UITableViewCell *)aCell
+                                            data:(id)aData
+                         didSelectActionBlock:(void(^)(id data))aDidSelectActionBlock
 {
     MGATableViewCellContainer *ret = [[[MGATableViewCellContainer alloc] initWithCell:aCell] autorelease];
     ret.didSelectActionBlock = aDidSelectActionBlock;
+    ret.data = aData;
     
     return ret;
 }
 
-
--(MGATableViewCellContainer *)initWithCell:(UITableViewCell *)aCell
+-(id)initWithCell:(UITableViewCell *)aCell
 {
     self = [super init];
     self.cell = aCell;
     return self;
 }
-
 
 -(void)dealloc
 {

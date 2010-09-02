@@ -15,11 +15,16 @@
 
 +(MGATableViewCellContainer *) containerWithCell:(UITableViewCell *)cell;
 +(MGATableViewCellContainer *) containerWithCell:(UITableViewCell *)cell
-                         andDidSelectActionBlock:(void(^)(void))didSelectActionBlock;
--(MGATableViewCellContainer *)initWithCell:(UITableViewCell *)cell;
+                            didSelectActionBlock:(void(^)(void))didSelectActionBlock;
++(MGATableViewCellContainer *) containerWithCell:(UITableViewCell *)cell
+                                            data:(id)data
+                            didSelectActionBlock:(void(^)(id data))didSelectActionBlock;
+
+-(id)initWithCell:(UITableViewCell *)cell;
 
 @property (retain) UITableViewCell *cell;
-@property (copy) void(^didSelectActionBlock)(void);
-@property (copy) void(^accessoryTapActionBlock)(void);
+@property (retain) id data;
+@property (copy) void(^didSelectActionBlock)(id data);
+@property (copy) void(^accessoryTapActionBlock)(id data);
 
 @end

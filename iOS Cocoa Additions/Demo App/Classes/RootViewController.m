@@ -27,7 +27,7 @@
                             
                                          [MGATableHeader headerWithString:@"Demo Screens"],
                                          [MGATableViewCellSubMenu subMenuWithTitle:@"MGATableView"
-                                                            andViewControllerClass:[DemoOfMGATableView class]],
+                                                            viewControllerClass:[DemoOfMGATableView class]],
                             
                                          nil];
     

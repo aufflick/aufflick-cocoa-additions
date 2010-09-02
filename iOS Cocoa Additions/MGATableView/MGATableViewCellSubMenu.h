@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MGATableViewCellContainer.h"
+#import "MGATableViewCellLabel.h"
 
-@interface MGATableViewCellSubMenu : MGATableViewCellContainer
+@interface MGATableViewCellSubMenu : MGATableViewCellLabel
 {
 }
 
-+(MGATableViewCellSubMenu *)subMenuWithTitle:(NSString *)title andViewControllerClass:(Class)viewControllerClass;
--(MGATableViewCellSubMenu *)initWithTitle:(NSString *)title andViewControllerClass:(Class)viewControllerClass;
++(MGATableViewCellSubMenu *)subMenuWithTitle:(NSString *)title viewControllerClass:(Class)viewControllerClass;
+-(id)initWithTitle:(NSString *)title viewControllerClass:(Class)viewControllerClass;
 
 @end
