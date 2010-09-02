@@ -11,6 +11,9 @@
 		6422A4CE10AC155D00F06492 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */; };
 		6422A53C10AC1A2900F06492 /* NSString+Levenshtein Unit Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */; };
 		6422A53F10AC1A2C00F06492 /* AufflickCocoaAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* AufflickCocoaAdditions.framework */; };
+		645FAC1F122F4033006E5B4A /* NSDate+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */; };
+		645FAC20122F4033006E5B4A /* NSDate+Aufflick.h in Headers */ = {isa = PBXBuildFile; fileRef = 645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */; };
+		645FAC21122F4033006E5B4A /* NSDate+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */; };
 		64E2973811B6249800463AFB /* MGAAutoScrollToTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */; };
 		64E2975611B629C100463AFB /* MGAAutoScrollToButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2975511B629C100463AFB /* MGAAutoScrollToButton.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
@@ -40,6 +43,8 @@
 		6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein Unit Test.m"; path = "NSString+Levenshtein/NSString+Levenshtein Unit Test.m"; sourceTree = "<group>"; };
 		6422A53410AC1A1800F06492 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6422A53610AC1A1800F06492 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnitTests-Info.plist"; path = "Scaffolding/UnitTests-Info.plist"; sourceTree = "<group>"; };
+		645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Aufflick.h"; sourceTree = "<group>"; };
+		645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Aufflick.m"; sourceTree = "<group>"; };
 		64E2973611B6249800463AFB /* MGAAutoScrollToTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToTextField.h; path = MGAAutoScroll/MGAAutoScrollToTextField.h; sourceTree = "<group>"; };
 		64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToTextField.m; path = MGAAutoScroll/MGAAutoScrollToTextField.m; sourceTree = "<group>"; };
 		64E2975411B629C100463AFB /* MGAAutoScrollToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToButton.h; path = MGAAutoScroll/MGAAutoScrollToButton.h; sourceTree = "<group>"; };
@@ -84,6 +89,7 @@
 				64E2975311B629A900463AFB /* Mac GUI */,
 				6422A4EA10AC162E00F06492 /* Unit tests */,
 				6422A4CA10AC154200F06492 /* NSString+Levenshtein */,
+				645FAC1C122F4033006E5B4A /* NSDate+Aufflick */,
 				6422A4C910AC153000F06492 /* Scaffolding */,
 			);
 			name = AufflickCocoaAdditions;
@@ -172,6 +178,15 @@
 			name = "Unit tests";
 			sourceTree = "<group>";
 		};
+		645FAC1C122F4033006E5B4A /* NSDate+Aufflick */ = {
+			isa = PBXGroup;
+			children = (
+				645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */,
+				645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */,
+			);
+			path = "NSDate+Aufflick";
+			sourceTree = "<group>";
+		};
 		64E2975311B629A900463AFB /* Mac GUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6422A4CD10AC155D00F06492 /* NSString+Levenshtein.h in Headers */,
+				645FAC20122F4033006E5B4A /* NSDate+Aufflick.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +312,7 @@
 				6422A53C10AC1A2900F06492 /* NSString+Levenshtein Unit Test.m in Sources */,
 				64E2973811B6249800463AFB /* MGAAutoScrollToTextField.m in Sources */,
 				64E2975611B629C100463AFB /* MGAAutoScrollToButton.m in Sources */,
+				645FAC1F122F4033006E5B4A /* NSDate+Aufflick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6422A4CE10AC155D00F06492 /* NSString+Levenshtein.m in Sources */,
+				645FAC21122F4033006E5B4A /* NSDate+Aufflick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

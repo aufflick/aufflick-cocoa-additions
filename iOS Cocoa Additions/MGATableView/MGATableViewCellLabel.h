@@ -16,6 +16,6 @@
 +(MGATableViewCellLabel *)containerWithTitle:(NSString *)title;
 +(MGATableViewCellLabel *)containerWithTitle:(NSString *)title didSelectActionBlock:(void(^)(id data))didSelectActionBlock;
 
--(id)initWithTitle:(NSString *)title didSelectActionBlock:(void(^)(id data))didSelectActionBlock;
+-(id)initWithTitle:(NSString *)title;
 
 @end

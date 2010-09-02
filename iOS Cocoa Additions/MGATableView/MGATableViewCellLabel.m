@@ -13,15 +13,18 @@
 
 +(MGATableViewCellLabel *)containerWithTitle:(NSString *)title
 {
-    return [[[MGATableViewCellLabel alloc] initWithTitle:title didSelectActionBlock:nil] autorelease];
+    return [[[MGATableViewCellLabel alloc] initWithTitle:title] autorelease];
 }
 
 +(MGATableViewCellLabel *)containerWithTitle:(NSString *)title didSelectActionBlock:(void(^)(id data))aDidSelectActionBlock
 {
-    return [[[MGATableViewCellLabel alloc] initWithTitle:title didSelectActionBlock:aDidSelectActionBlock] autorelease];
+    MGATableViewCellLabel *ret = [[[MGATableViewCellLabel alloc] initWithTitle:title] autorelease];
+    ret.didSelectActionBlock = aDidSelectActionBlock;
+    
+    return ret;
 }
 
--(id)initWithTitle:(NSString *)title didSelectActionBlock:(void(^)(id data))aDidSelectActionBlock
+-(id)initWithTitle:(NSString *)title
 {
     self = [super init];
     
@@ -32,8 +35,6 @@
     aCell.textLabel.text = title;
     self.cell = aCell;
     [aCell release];
-    
-    self.didSelectActionBlock = aDidSelectActionBlock;
     
     return self;
 }

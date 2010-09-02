@@ -232,8 +232,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,12 +270,14 @@
 								<string>64E2975311B629A900463AFB</string>
 								<string>6422A4EA10AC162E00F06492</string>
 								<string>6422A4CA10AC154200F06492</string>
+								<string>645FAC1C122F4033006E5B4A</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>14</integer>
 									<integer>12</integer>
 									<integer>0</integer>
 								</array>
@@ -313,12 +313,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MGAAutoScrollToTextField.h</string>
+								<string>NSDate+Aufflick.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,22 +328,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MGAAutoScrollToTextField.h</string>
+										<string>NSDate+Aufflick.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>645FAB86122E4E62006E5B4A</string>
+										<string>645A2F17122F81280002A53A</string>
 										<key>history</key>
 										<array>
 											<string>6422A5AC10AC26A700F06492</string>
-											<string>6422A60B10AC2ED900F06492</string>
 											<string>6422A61610AC2F1800F06492</string>
-											<string>64D91D4F122616E80013DA1A</string>
 											<string>64D91D50122616E80013DA1A</string>
-											<string>64D91D51122616E80013DA1A</string>
-											<string>64D91D52122616E80013DA1A</string>
 											<string>64D91D53122616E80013DA1A</string>
-											<string>64867C26122637E400734291</string>
+											<string>645FAB8B122F2D74006E5B4A</string>
+											<string>645FAB8C122F2D74006E5B4A</string>
+											<string>645FAB8D122F2D74006E5B4A</string>
+											<string>645FAC16122F3F2E006E5B4A</string>
+											<string>645FAC38122F429E006E5B4A</string>
+											<string>645FAC39122F429E006E5B4A</string>
+											<string>645FAC3B122F429E006E5B4A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -399,9 +403,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>645FAB87122E4E62006E5B4A</string>
+				<string>645A2F18122F81280002A53A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>645FAB88122E4E62006E5B4A</string>
+				<string>645A2F19122F81280002A53A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -620,7 +624,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6422A4C410AC151600F06492</string>
-				<string>645FAB89122E4E62006E5B4A</string>
+				<string>645A2F1A122F81280002A53A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

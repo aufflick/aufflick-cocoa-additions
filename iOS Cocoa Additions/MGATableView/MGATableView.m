@@ -20,9 +20,11 @@
         _mgaDataSource = [[MGATableViewArrayDataSource alloc] init];
         self.dataSource = _mgaDataSource;
         
-        // don't stomp on delegate if someone has already assigned a different one
-        if (!self.delegate)
-            self.delegate = _mgaDataSource;
+        if (self.delegate) {
+            NSLog(@"MGATableView: stomping on existing delegate (%@) - you should set a delegate on the mgaDataSource instead", self.delegate);
+        }
+        
+        self.delegate = _mgaDataSource;
     }
     
     return _mgaDataSource;

@@ -21,7 +21,9 @@
     // the app delegate must have the navigationController as a property - as per the standard template
     // this is informal - your code will die if it is not honoured!
 
-    self = [super initWithTitle:title didSelectActionBlock:^(id data){
+    self = [super initWithTitle:title];
+
+    self.didSelectActionBlock = ^(id data){
         UINavigationController *navc = [[[UIApplication sharedApplication] delegate] performSelector:@selector(navigationController)];
         
         // the vc must be able to be loaded with nil nibName and bundle - ie. matching filename
@@ -33,7 +35,7 @@
         [vc release];
         
         self.cell.selected = NO;
-    }];
+    };
     
     self.cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         
