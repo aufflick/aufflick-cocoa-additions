@@ -23,7 +23,7 @@
         
     MGATableView *tableView = (MGATableView *)self.view;
         
-    tableView.mgaDataSource.dataArray = [[NSArray alloc] initWithObjects:
+    tableView.mgaDataSource.dataArray = [NSArray arrayWithObjects:
                             
                                          [MGATableHeader headerWithString:@"Demo Screens"],
                                          [MGATableViewCellSubMenu subMenuWithTitle:@"MGATableView"

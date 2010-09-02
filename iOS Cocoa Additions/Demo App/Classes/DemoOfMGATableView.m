@@ -57,7 +57,7 @@
     
     tableView.mgaDataSource.delegate = self;
     
-    tableView.mgaDataSource.dataArray = [[NSArray alloc] initWithObjects:
+    tableView.mgaDataSource.dataArray = [NSArray arrayWithObjects:
                                          
                                          [MGATableHeader headerWithString:@"Section 1 Header"],
                                          cont1,
