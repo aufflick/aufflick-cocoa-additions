@@ -36,19 +36,19 @@
 		089C1667FE841158C02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Scaffolding/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* AufflickCocoaAdditions_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AufflickCocoaAdditions_Prefix.pch; sourceTree = "<group>"; };
-		6422A4CB10AC155D00F06492 /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Levenshtein.h"; path = "NSString+Levenshtein/NSString+Levenshtein.h"; sourceTree = "<group>"; };
-		6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein.m"; path = "NSString+Levenshtein/NSString+Levenshtein.m"; sourceTree = "<group>"; };
+		6422A4CB10AC155D00F06492 /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Levenshtein.h"; path = "../NSString+Levenshtein/NSString+Levenshtein.h"; sourceTree = "<group>"; };
+		6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein.m"; path = "../NSString+Levenshtein/NSString+Levenshtein.m"; sourceTree = "<group>"; };
 		6422A4D710AC158500F06492 /* NSString+Levenshtein Unit Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NSString+Levenshtein Unit Test-Info.plist"; path = "Scaffolding/NSString+Levenshtein Unit Test-Info.plist"; sourceTree = "<group>"; };
-		6422A50010AC16D600F06492 /* NSString+Levenshtein Unit Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Levenshtein Unit Test.h"; path = "NSString+Levenshtein/NSString+Levenshtein Unit Test.h"; sourceTree = "<group>"; };
-		6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein Unit Test.m"; path = "NSString+Levenshtein/NSString+Levenshtein Unit Test.m"; sourceTree = "<group>"; };
+		6422A50010AC16D600F06492 /* NSString+Levenshtein Unit Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Levenshtein Unit Test.h"; path = "../NSString+Levenshtein/NSString+Levenshtein Unit Test.h"; sourceTree = "<group>"; };
+		6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein Unit Test.m"; path = "../NSString+Levenshtein/NSString+Levenshtein Unit Test.m"; sourceTree = "<group>"; };
 		6422A53410AC1A1800F06492 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6422A53610AC1A1800F06492 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnitTests-Info.plist"; path = "Scaffolding/UnitTests-Info.plist"; sourceTree = "<group>"; };
 		645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Aufflick.h"; sourceTree = "<group>"; };
 		645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Aufflick.m"; sourceTree = "<group>"; };
-		64E2973611B6249800463AFB /* MGAAutoScrollToTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToTextField.h; path = MGAAutoScroll/MGAAutoScrollToTextField.h; sourceTree = "<group>"; };
-		64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToTextField.m; path = MGAAutoScroll/MGAAutoScrollToTextField.m; sourceTree = "<group>"; };
-		64E2975411B629C100463AFB /* MGAAutoScrollToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToButton.h; path = MGAAutoScroll/MGAAutoScrollToButton.h; sourceTree = "<group>"; };
-		64E2975511B629C100463AFB /* MGAAutoScrollToButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToButton.m; path = MGAAutoScroll/MGAAutoScrollToButton.m; sourceTree = "<group>"; };
+		64E2973611B6249800463AFB /* MGAAutoScrollToTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToTextField.h; path = ../MGAAutoScroll/MGAAutoScrollToTextField.h; sourceTree = "<group>"; };
+		64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToTextField.m; path = ../MGAAutoScroll/MGAAutoScrollToTextField.m; sourceTree = "<group>"; };
+		64E2975411B629C100463AFB /* MGAAutoScrollToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToButton.h; path = ../MGAAutoScroll/MGAAutoScrollToButton.h; sourceTree = "<group>"; };
+		64E2975511B629C100463AFB /* MGAAutoScrollToButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToButton.m; path = ../MGAAutoScroll/MGAAutoScrollToButton.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Scaffolding/Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* AufflickCocoaAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AufflickCocoaAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -87,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				64E2975311B629A900463AFB /* Mac GUI */,
-				6422A4EA10AC162E00F06492 /* Unit tests */,
 				6422A4CA10AC154200F06492 /* NSString+Levenshtein */,
 				645FAC1C122F4033006E5B4A /* NSDate+Aufflick */,
 				6422A4C910AC153000F06492 /* Scaffolding */,
@@ -165,6 +164,7 @@
 			children = (
 				6422A4CB10AC155D00F06492 /* NSString+Levenshtein.h */,
 				6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */,
+				6422A4EA10AC162E00F06492 /* Unit tests */,
 			);
 			name = "NSString+Levenshtein";
 			sourceTree = "<group>";
@@ -184,7 +184,8 @@
 				645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */,
 				645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */,
 			);
-			path = "NSDate+Aufflick";
+			name = "NSDate+Aufflick";
+			path = "../NSDate+Aufflick";
 			sourceTree = "<group>";
 		};
 		64E2975311B629A900463AFB /* Mac GUI */ = {
@@ -258,7 +259,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "AufflickCocoaAdditions" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* AufflickCocoaAdditions */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -396,6 +404,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;

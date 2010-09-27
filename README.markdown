@@ -12,7 +12,7 @@ At the moment all files are standalone classes, but they are included in the res
 iOS Cocoa Additions
 -------------------
 
-* [MGATableView](/iOS Cocoa Additions/MGATableView) - makes generating simple table views, well simple. Eg. make a grouped table view menu with no datasource or delegate
+* [MGATableView](tree/master/iOS Cocoa Additions/MGATableView) - makes generating simple table views, well simple. Eg. make a grouped table view menu with no datasource or delegate
 
 Cocoa Additions
 ---------------
