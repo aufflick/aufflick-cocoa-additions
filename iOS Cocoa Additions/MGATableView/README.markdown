@@ -12,7 +12,8 @@ In this example, from the demo app, there is an MGATableView instance from the n
 the tableView outlet of a UIViewController. (In Interface Builder it is just a normal
 UITableView, but with the class set to MGATableView in the inspector):
 
-    - (void)viewDidLoad {
+    - (void)viewDidLoad
+    {
         [super viewDidLoad];
         
         self.title = @"Demo Menu";
