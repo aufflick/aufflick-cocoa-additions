@@ -12,49 +12,53 @@ In this example, from the demo app, there is an MGATableView instance from the n
 the tableView outlet of a UIViewController. (In Interface Builder it is just a normal
 UITableView, but with the class set to MGATableView in the inspector):
 
-    <style type="text/css">
-    <!--
-      body {
-        color: #000000;
-        background-color: #ffffff;
-      }
-      .constant {
-        /* font-lock-constant-face */
-        color: #008b8b;
-      }
-      .function-name {
-        /* font-lock-function-name-face */
-        color: #0000ff;
-      }
-      .keyword {
-        /* font-lock-keyword-face */
-        color: #7f007f;
-      }
-      .string {
-        /* font-lock-string-face */
-        color: #8b4513;
-      }
-      .type {
-        /* font-lock-type-face */
-        color: #228b22;
-      }
-      .variable-name {
-        /* font-lock-variable-name-face */
-        color: #a0522d;
-      }
+<style type="text/css">
 
-      a {
-        color: inherit;
-        background-color: inherit;
-        font: inherit;
-        text-decoration: inherit;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    -->
-    </style>
-    <pre>
+<!--
+body {
+color: #000000;
+background-color: #ffffff;
+}
+.constant {
+/* font-lock-constant-face */
+color: #008b8b;
+}
+.function-name {
+/* font-lock-function-name-face */
+color: #0000ff;
+}
+.keyword {
+/* font-lock-keyword-face */
+color: #7f007f;
+}
+.string {
+/* font-lock-string-face */
+color: #8b4513;
+}
+.type {
+/* font-lock-type-face */
+color: #228b22;
+}
+.variable-name {
+/* font-lock-variable-name-face */
+color: #a0522d;
+}
+
+a {
+color: inherit;
+background-color: inherit;
+font: inherit;
+text-decoration: inherit;
+}
+a:hover {
+text-decoration: underline;
+}
+-->
+
+</style>
+
+<pre>
+
 - (<span class="type">void</span>)<span class="function-name">viewDidLoad</span> {
     [<span class="keyword">super</span> viewDidLoad];
 
@@ -74,6 +78,7 @@ UITableView, but with the class set to MGATableView in the inspector):
 
                                          <span class="constant">nil</span>];
 }
+
 </pre>
 
     - (void)viewDidLoad {
