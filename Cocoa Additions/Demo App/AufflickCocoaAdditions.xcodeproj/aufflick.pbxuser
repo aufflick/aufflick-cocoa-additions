@@ -73,17 +73,16 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 307245865;
-			PBXWorkspaceStateSaveDate = 307245865;
+			PBXPerProjectTemplateStateSaveDate = 307444168;
+			PBXWorkspaceStateSaveDate = 307444168;
 		};
 		perUserProjectItems = {
 			6422A5AC10AC26A700F06492 = 6422A5AC10AC26A700F06492 /* PBXTextBookmark */;
 			6422A61610AC2F1800F06492 = 6422A61610AC2F1800F06492 /* PlistBookmark */;
 			64869FF3125032FE00CD8483 = 64869FF3125032FE00CD8483 /* PBXTextBookmark */;
 			64869FF4125032FE00CD8483 = 64869FF4125032FE00CD8483 /* PBXTextBookmark */;
-			64869FF5125032FE00CD8483 = 64869FF5125032FE00CD8483 /* PBXTextBookmark */;
 			64869FF6125032FE00CD8483 = 64869FF6125032FE00CD8483 /* PBXTextBookmark */;
-			6486A0071250333000CD8483 /* PBXTextBookmark */ = 6486A0071250333000CD8483 /* PBXTextBookmark */;
+			6486A025125236B700CD8483 = 6486A025125236B700CD8483 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6422A4C610AC151600F06492 /* Source Control */;
 		userBuildSettings = {
@@ -221,6 +220,20 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
+	6458165F12533B1B0069A51C /* NSData+Aufflick.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 684}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{0, 298}";
+		};
+	};
+	6458166012533B1B0069A51C /* NSData+Aufflick.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 684}}";
+			sepNavSelRange = "{948, 0}";
+			sepNavVisRange = "{0, 958}";
+		};
+	};
 	645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {721, 684}}";
@@ -255,14 +268,6 @@
 		vrLen = 1978;
 		vrLoc = 0;
 	};
-	64869FF5125032FE00CD8483 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "NSDate+FAStripTimeComponent.h: No such file or directory";
-		fRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */;
-		rLen = 1;
-		rLoc = 7;
-		rType = 1;
-	};
 	64869FF6125032FE00CD8483 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */;
@@ -273,7 +278,7 @@
 		vrLen = 973;
 		vrLoc = 0;
 	};
-	6486A0071250333000CD8483 /* PBXTextBookmark */ = {
+	6486A025125236B700CD8483 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */;
 		name = "NSDate+Aufflick.m: 8";

@@ -7,7 +7,7 @@ There are two sub-directories. "Cocoa Additions" has general Objective-C classes
 
 At the moment all files are standalone classes, but they are included in the respective projects so they can be bundled with tests, demos etc.
 
-* I must have found them helpful, otherwise I wouldn't have bothered. YMMV.
+    * I must have found them helpful, otherwise I wouldn't have bothered. YMMV.
 
 iOS Cocoa Additions
 -------------------
