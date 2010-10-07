@@ -27,7 +27,6 @@ UITableView, but with the class set to MGATableView in the inspector):
                                                                 viewControllerClass:[DemoOfMGATableView class]],
                                              [MGATableViewCellLabel containerWithTitle:@"FTW" didSelectActionBlock:^{
                                                   NSLog(@"FTW!");
-                                                  cell1.selected = NO;
                                              }];
                                 
                                              nil];

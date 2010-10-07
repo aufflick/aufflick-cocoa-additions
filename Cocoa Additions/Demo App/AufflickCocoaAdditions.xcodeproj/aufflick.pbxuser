@@ -73,16 +73,19 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 307444168;
-			PBXWorkspaceStateSaveDate = 307444168;
+			PBXPerProjectTemplateStateSaveDate = 308111732;
+			PBXWorkspaceStateSaveDate = 308111732;
 		};
 		perUserProjectItems = {
-			6422A5AC10AC26A700F06492 = 6422A5AC10AC26A700F06492 /* PBXTextBookmark */;
-			6422A61610AC2F1800F06492 = 6422A61610AC2F1800F06492 /* PlistBookmark */;
-			64869FF3125032FE00CD8483 = 64869FF3125032FE00CD8483 /* PBXTextBookmark */;
-			64869FF4125032FE00CD8483 = 64869FF4125032FE00CD8483 /* PBXTextBookmark */;
-			64869FF6125032FE00CD8483 = 64869FF6125032FE00CD8483 /* PBXTextBookmark */;
-			6486A025125236B700CD8483 = 6486A025125236B700CD8483 /* PBXTextBookmark */;
+			6422A5AC10AC26A700F06492 /* PBXTextBookmark */ = 6422A5AC10AC26A700F06492 /* PBXTextBookmark */;
+			6422A61610AC2F1800F06492 /* PlistBookmark */ = 6422A61610AC2F1800F06492 /* PlistBookmark */;
+			6458166712533D940069A51C /* PBXTextBookmark */ = 6458166712533D940069A51C /* PBXTextBookmark */;
+			6458166812533D940069A51C /* PBXTextBookmark */ = 6458166812533D940069A51C /* PBXTextBookmark */;
+			6458166912533D940069A51C /* PBXTextBookmark */ = 6458166912533D940069A51C /* PBXTextBookmark */;
+			6458166A12533D940069A51C /* PBXTextBookmark */ = 6458166A12533D940069A51C /* PBXTextBookmark */;
+			6458166C12533D940069A51C /* PBXTextBookmark */ = 6458166C12533D940069A51C /* PBXTextBookmark */;
+			64869FF3125032FE00CD8483 /* PBXTextBookmark */ = 64869FF3125032FE00CD8483 /* PBXTextBookmark */;
+			64C5E000125D6FB400A2902A /* PBXTextBookmark */ = 64C5E000125D6FB400A2902A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6422A4C610AC151600F06492 /* Source Control */;
 		userBuildSettings = {
@@ -234,6 +237,56 @@
 			sepNavVisRange = "{0, 958}";
 		};
 	};
+	6458166712533D940069A51C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */;
+		name = "NSString+Levenshtein Unit Test.m: 23";
+		rLen = 0;
+		rLoc = 833;
+		rType = 0;
+		vrLen = 1978;
+		vrLoc = 0;
+	};
+	6458166812533D940069A51C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */;
+		name = "NSDate+Aufflick.m: 8";
+		rLen = 0;
+		rLoc = 153;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	6458166912533D940069A51C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */;
+		name = "NSDate+Aufflick.h: 14";
+		rLen = 45;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 279;
+		vrLoc = 0;
+	};
+	6458166A12533D940069A51C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */;
+		name = "NSData+Aufflick.m: 36";
+		rLen = 0;
+		rLoc = 948;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 0;
+	};
+	6458166C12533D940069A51C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6458165F12533B1B0069A51C /* NSData+Aufflick.h */;
+		name = "NSData+Aufflick.h: 14";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
 	645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {721, 684}}";
@@ -258,34 +311,14 @@
 		vrLen = 1700;
 		vrLoc = 0;
 	};
-	64869FF4125032FE00CD8483 /* PBXTextBookmark */ = {
+	64C5E000125D6FB400A2902A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */;
-		name = "NSString+Levenshtein Unit Test.m: 23";
+		fRef = 6458165F12533B1B0069A51C /* NSData+Aufflick.h */;
+		name = "NSData+Aufflick.h: 14";
 		rLen = 0;
-		rLoc = 833;
+		rLoc = 235;
 		rType = 0;
-		vrLen = 1978;
-		vrLoc = 0;
-	};
-	64869FF6125032FE00CD8483 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */;
-		name = "NSDate+Aufflick.m: 8";
-		rLen = 0;
-		rLoc = 153;
-		rType = 0;
-		vrLen = 973;
-		vrLoc = 0;
-	};
-	6486A025125236B700CD8483 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */;
-		name = "NSDate+Aufflick.m: 8";
-		rLen = 0;
-		rLoc = 153;
-		rType = 0;
-		vrLen = 973;
+		vrLen = 298;
 		vrLoc = 0;
 	};
 	64E2973611B6249800463AFB /* MGAAutoScrollToTextField.h */ = {
