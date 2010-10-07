@@ -45,13 +45,25 @@
     /*
      * cell4 is nib-based, wrapped in an MGATableViewCellContainer
      */
-    MGATableViewCellContainer *cont4 = [MGATableViewCellContainer containerWithCell:cell4 didSelectActionBlock:^{
+    MGATableViewCellContainer *cont4 = [MGATableViewCellContainer
+                                        containerWithCell:cell4 didSelectActionBlock:^{
         [cell3Slider setValue:0 animated:YES];
         cell4Label.text = @"0";
         cell4.selected = NO;
     }];
     
     cell4Label.text = @"0";
+    
+    /*
+     * cell5 demonstrates using an image
+     */
+    
+    MGATableViewCellLabel *cont5 = [MGATableViewCellLabel containerWithTitle:@"Clarus"];
+    cont5.didSelectActionBlock = ^(id data){
+        NSLog(@"Moof");
+        cont5.cell.selected = NO;
+    };
+    cont5.cell.imageView.image = [UIImage imageNamed:@"clarus.png"];
     
     MGATableView *tableView = (MGATableView *)self.view;
     
@@ -70,6 +82,7 @@
                                          
                                          [MGATableSectionBreak sectionBreak],
                                          cont4,
+                                         cont5,
                                          [MGATableFooter footerWithString:@"Section 3 Footer"],
                                          
                                          nil];
