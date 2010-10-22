@@ -13,10 +13,7 @@ iOS Cocoa Additions
 -------------------
 
 * [MGATableView](aufflick-cocoa-additions/tree/master/iOS Cocoa Additions/MGATableView) - makes generating simple table views, well simple. Eg. make a grouped table view menu with no datasource or delegate
-
-### iOS Categories
-
-* UIImage : - (UIImage *)mga_imageScaledToFitSize:(CGSize)targetSize
+* UIImage+MGAScale : - (UIImage *)mga_imageScaledToFitSize:(CGSize)targetSize
 
 Cocoa Additions
 ---------------
