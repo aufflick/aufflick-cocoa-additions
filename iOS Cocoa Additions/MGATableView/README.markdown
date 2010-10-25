@@ -5,6 +5,11 @@ I often find myself writing a very thin data source and delegate object for a UI
 simply to display a static menu. This class aims to be a data driven drop in object for
 very simple cases.
 
+See Also
+--------
+
+* CocoaHeads Sydney Presentation on MGATableView: http://mark.aufflick.com/talks/mgatableview
+
 Synopsis
 --------
 
