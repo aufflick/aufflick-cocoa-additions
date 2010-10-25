@@ -24,7 +24,9 @@ Cocoa Additions
     * do fuzzy string matching with Levenshtein distance on NSStrings
     * `- (float) asciiLevenshteinDistanceWithString: (NSString *)stringB`
     * `- (float) asciiLevenshteinDistanceWithString: (NSString *)stringB skippingCharacterSet: (NSCharacterSet *)charset`
-* [MGAAutoScrollTo(TextField|Button)](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAAutoScroll) - scroll a parent scrollview to show a control when it becomes the firstResponder (eg. by tabbing)
+* [MGAAutoScrollTo(TextField|Button)](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAAutoScroll)
+    * scroll a parent scrollview to show a control when it becomes the firstResponder (eg. by tabbing)
+    * `- (BOOL)becomeFirstResponder`
 * [NSData+Aufflick](aufflick-cocoa-additions/tree/master/Cocoa Additions/NSData+Aufflick)
     * `- (unsigned char *) MGA_md5CharStar` - generate md5 (binary) from NSData
     * `- (NSString *) MGA_md5NSString` - generate md5 (NSString) from NSData
