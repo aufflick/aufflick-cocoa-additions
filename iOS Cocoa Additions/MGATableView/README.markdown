@@ -8,7 +8,7 @@ very simple cases.
 See Also
 --------
 
-* CocoaHeads Sydney Presentation on MGATableView: [http://mark.aufflick.com/talks/mgatableview]
+* CocoaHeads Sydney Presentation on MGATableView: [http://mark.aufflick.com/talks/mgatableview](http://mark.aufflick.com/talks/mgatableview)
 
 Synopsis
 --------
