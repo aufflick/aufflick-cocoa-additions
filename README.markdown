@@ -7,6 +7,8 @@ There are two sub-directories. "Cocoa Additions" has general Objective-C classes
 
 At the moment all files are standalone classes, but they are included in the respective projects so they can be bundled with tests, demos etc.
 
+All code is BSD licensed and you must retain the license and copyright comments at the top of each file if you check them into your own source control. No acknowledgement in your shipped binary is required, but it would be appreciated.
+
     * I must have found them helpful, otherwise I wouldn't have bothered. YMMV.
 
 iOS Cocoa Additions
