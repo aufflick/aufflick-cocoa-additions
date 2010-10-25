@@ -24,7 +24,7 @@
     
     MGATableViewCellContainer *cont1 = [MGATableViewCellContainer containerWithCell:cell1 didSelectActionBlock:^{
         NSLog(@"FTW!");
-        cell1.selected = NO;
+        //cell1.selected = NO;
     }];
     [cell1 release];
     
