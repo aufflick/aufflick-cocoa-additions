@@ -1,8 +1,8 @@
 //
-//  NSData+Aufflick.h
+//  MGAFunctionalAdditions.h
 //  AufflickCocoaAdditions
 //
-//  Created by Mark Aufflick on 29/09/10.
+//  Created by Mark Aufflick on 26/10/10.
 //  Copyright 2010 pumptheory.com. All rights reserved.
 //
 
@@ -36,12 +36,6 @@
  
  */ 
 
-#import <Foundation/Foundation.h>
 
 
-@interface NSData (Aufflick)
-
-- (unsigned char *) MGA_md5CharStar;
-- (NSString *) MGA_md5NSString;
-
-@end
+#import "NSArray+MGAFunctionalAdditions.h"

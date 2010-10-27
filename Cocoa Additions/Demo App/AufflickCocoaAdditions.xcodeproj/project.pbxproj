@@ -19,6 +19,10 @@
 		645FAC21122F4033006E5B4A /* NSDate+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */; };
 		64E2973811B6249800463AFB /* MGAAutoScrollToTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */; };
 		64E2975611B629C100463AFB /* MGAAutoScrollToButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2975511B629C100463AFB /* MGAAutoScrollToButton.m */; };
+		64E3205E1276966400AFDE57 /* MGAFunctionalAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E3205C1276966400AFDE57 /* MGAFunctionalAdditions.h */; };
+		64E32063127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E32061127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h */; };
+		64E32064127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E32062127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m */; };
+		64E32065127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E32062127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +58,9 @@
 		64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToTextField.m; path = ../MGAAutoScroll/MGAAutoScrollToTextField.m; sourceTree = "<group>"; };
 		64E2975411B629C100463AFB /* MGAAutoScrollToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToButton.h; path = ../MGAAutoScroll/MGAAutoScrollToButton.h; sourceTree = "<group>"; };
 		64E2975511B629C100463AFB /* MGAAutoScrollToButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToButton.m; path = ../MGAAutoScroll/MGAAutoScrollToButton.m; sourceTree = "<group>"; };
+		64E3205C1276966400AFDE57 /* MGAFunctionalAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAFunctionalAdditions.h; path = ../MGAFunctionalAdditions/MGAFunctionalAdditions.h; sourceTree = "<group>"; };
+		64E32061127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MGAFunctionalAdditions.h"; path = "../MGAFunctionalAdditions/NSArray+MGAFunctionalAdditions.h"; sourceTree = "<group>"; };
+		64E32062127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MGAFunctionalAdditions.m"; path = "../MGAFunctionalAdditions/NSArray+MGAFunctionalAdditions.m"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Scaffolding/Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* AufflickCocoaAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AufflickCocoaAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -91,6 +98,7 @@
 		0867D691FE84028FC02AAC07 /* AufflickCocoaAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				64E320561276955100AFDE57 /* MGAFunctionalAdditions */,
 				6458165E12533A9E0069A51C /* NSData+Aufflick */,
 				64E2975311B629A900463AFB /* Mac GUI */,
 				6422A4CA10AC154200F06492 /* NSString+Levenshtein */,
@@ -214,6 +222,16 @@
 			name = "Mac GUI";
 			sourceTree = "<group>";
 		};
+		64E320561276955100AFDE57 /* MGAFunctionalAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				64E3205C1276966400AFDE57 /* MGAFunctionalAdditions.h */,
+				64E32061127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h */,
+				64E32062127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m */,
+			);
+			name = MGAFunctionalAdditions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -224,6 +242,8 @@
 				6422A4CD10AC155D00F06492 /* NSString+Levenshtein.h in Headers */,
 				645FAC20122F4033006E5B4A /* NSDate+Aufflick.h in Headers */,
 				6458166212533B1B0069A51C /* NSData+Aufflick.h in Headers */,
+				64E3205E1276966400AFDE57 /* MGAFunctionalAdditions.h in Headers */,
+				64E32063127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,7 @@
 				64E2975611B629C100463AFB /* MGAAutoScrollToButton.m in Sources */,
 				645FAC1F122F4033006E5B4A /* NSDate+Aufflick.m in Sources */,
 				6458166112533B1B0069A51C /* NSData+Aufflick.m in Sources */,
+				64E32065127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +369,7 @@
 				6422A4CE10AC155D00F06492 /* NSString+Levenshtein.m in Sources */,
 				645FAC21122F4033006E5B4A /* NSDate+Aufflick.m in Sources */,
 				6458166312533B1B0069A51C /* NSData+Aufflick.m in Sources */,
+				64E32064127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

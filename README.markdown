@@ -38,3 +38,6 @@ Cocoa Additions
 * [NSDate+Aufflick](aufflick-cocoa-additions/tree/master/Cocoa Additions/NSDate+Aufflick)
     * `- (NSDate *)MGA_stripTimeComponent`
     * `- (NSDate *)MGA_addMonths:(NSInteger)months`
+* [MGAFunctionalAdditions](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAFunctionalAdditions)
+    * NSArray Category
+        * `- (NSArray *)mga_map:(id(^)(id obj))block`
