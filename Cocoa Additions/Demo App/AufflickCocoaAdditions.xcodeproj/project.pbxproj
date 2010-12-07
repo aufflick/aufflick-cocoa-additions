@@ -11,6 +11,9 @@
 		6422A4CE10AC155D00F06492 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 6422A4CC10AC155D00F06492 /* NSString+Levenshtein.m */; };
 		6422A53C10AC1A2900F06492 /* NSString+Levenshtein Unit Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */; };
 		6422A53F10AC1A2C00F06492 /* AufflickCocoaAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* AufflickCocoaAdditions.framework */; };
+		6428262A12ADB6F9000EE4CC /* MGAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428262812ADB6F9000EE4CC /* MGAView.h */; };
+		6428262B12ADB6F9000EE4CC /* MGAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428262912ADB6F9000EE4CC /* MGAView.m */; };
+		6428262C12ADB6F9000EE4CC /* MGAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428262912ADB6F9000EE4CC /* MGAView.m */; };
 		6458166112533B1B0069A51C /* NSData+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */; };
 		6458166212533B1B0069A51C /* NSData+Aufflick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6458165F12533B1B0069A51C /* NSData+Aufflick.h */; };
 		6458166312533B1B0069A51C /* NSData+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */; };
@@ -50,6 +53,8 @@
 		6422A50110AC16D600F06492 /* NSString+Levenshtein Unit Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein Unit Test.m"; path = "../NSString+Levenshtein/NSString+Levenshtein Unit Test.m"; sourceTree = "<group>"; };
 		6422A53410AC1A1800F06492 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6422A53610AC1A1800F06492 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnitTests-Info.plist"; path = "Scaffolding/UnitTests-Info.plist"; sourceTree = "<group>"; };
+		6428262812ADB6F9000EE4CC /* MGAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAView.h; sourceTree = "<group>"; };
+		6428262912ADB6F9000EE4CC /* MGAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAView.m; sourceTree = "<group>"; };
 		6458165F12533B1B0069A51C /* NSData+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Aufflick.h"; path = "../NSData+Aufflick/NSData+Aufflick.h"; sourceTree = "<group>"; };
 		6458166012533B1B0069A51C /* NSData+Aufflick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Aufflick.m"; path = "../NSData+Aufflick/NSData+Aufflick.m"; sourceTree = "<group>"; };
 		645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Aufflick.h"; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 		0867D691FE84028FC02AAC07 /* AufflickCocoaAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				6428262212ADB6E1000EE4CC /* MGAView */,
 				64E320561276955100AFDE57 /* MGAFunctionalAdditions */,
 				6458165E12533A9E0069A51C /* NSData+Aufflick */,
 				64E2975311B629A900463AFB /* Mac GUI */,
@@ -192,6 +198,16 @@
 			name = "Unit tests";
 			sourceTree = "<group>";
 		};
+		6428262212ADB6E1000EE4CC /* MGAView */ = {
+			isa = PBXGroup;
+			children = (
+				6428262812ADB6F9000EE4CC /* MGAView.h */,
+				6428262912ADB6F9000EE4CC /* MGAView.m */,
+			);
+			name = MGAView;
+			path = ../MGAView;
+			sourceTree = SOURCE_ROOT;
+		};
 		6458165E12533A9E0069A51C /* NSData+Aufflick */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +260,7 @@
 				6458166212533B1B0069A51C /* NSData+Aufflick.h in Headers */,
 				64E3205E1276966400AFDE57 /* MGAFunctionalAdditions.h in Headers */,
 				64E32063127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h in Headers */,
+				6428262A12ADB6F9000EE4CC /* MGAView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +376,7 @@
 				645FAC1F122F4033006E5B4A /* NSDate+Aufflick.m in Sources */,
 				6458166112533B1B0069A51C /* NSData+Aufflick.m in Sources */,
 				64E32065127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */,
+				6428262C12ADB6F9000EE4CC /* MGAView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +388,7 @@
 				645FAC21122F4033006E5B4A /* NSDate+Aufflick.m in Sources */,
 				6458166312533B1B0069A51C /* NSData+Aufflick.m in Sources */,
 				64E32064127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */,
+				6428262B12ADB6F9000EE4CC /* MGAView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -281,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>6</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MGAFunctionalAdditions.h</string>
+								<string>NSData+Aufflick.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MGAFunctionalAdditions.h</string>
+										<string>NSData+Aufflick.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>64E3207D12769E5A00AFDE57</string>
+										<string>6428261E12ADB6BC000EE4CC</string>
 										<key>history</key>
 										<array>
 											<string>6422A5AC10AC26A700F06492</string>
@@ -344,10 +344,10 @@
 											<string>6458166812533D940069A51C</string>
 											<string>6458166912533D940069A51C</string>
 											<string>64E3206912769DEA00AFDE57</string>
-											<string>64E3206A12769DEA00AFDE57</string>
 											<string>64E3206B12769DEA00AFDE57</string>
 											<string>64E3207C12769E5A00AFDE57</string>
-											<string>64E3207112769E3300AFDE57</string>
+											<string>6428261D12ADB6BC000EE4CC</string>
+											<string>64E3206A12769DEA00AFDE57</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -405,9 +405,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>64E320591276956600AFDE57</string>
+				<string>6428261F12ADB6BC000EE4CC</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>64E3205A1276956600AFDE57</string>
+				<string>6428262012ADB6BC000EE4CC</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -546,7 +546,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>6422A4C410AC151600F06492</string>
-		<string>/Volumes/HD/Users/aufflick/src/cocoa/mine/aufflick-cocoa-additions/Cocoa Additions/Demo App/AufflickCocoaAdditions.xcodeproj</string>
+		<string>/Volumes/HD/src/cocoa/mine/aufflick-cocoa-additions/Cocoa Additions/Demo App/AufflickCocoaAdditions.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>240 431 1087 747 0 0 1920 1178 </string>
@@ -565,14 +565,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSArray+MGAFunctionalAdditions.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -628,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6422A4C410AC151600F06492</string>
-				<string>64E3205B1276956600AFDE57</string>
+				<string>6428262112ADB6BC000EE4CC</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
