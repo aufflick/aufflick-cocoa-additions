@@ -14,6 +14,12 @@ License
 
 All code is BSD licensed and you must retain the license and copyright comments at the top of each file if you check them into your own source control. No acknowledgement in your shipped binary is required, but it would be appreciated.
 
+Xcode Build Scripts
+-------------------
+
+* [update_build_number.pl](aufflick-cocoa-additions/tree/master/Cocoa Additions/BuildScripts/update_build_number.pl)
+    * Auto updates the build version each time you build, using base 62
+
 iOS Cocoa Additions
 -------------------
 
@@ -41,3 +47,8 @@ Cocoa Additions
 * [MGAFunctionalAdditions](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAFunctionalAdditions)
     * NSArray Category
         * `- (NSArray *)mga_map:(id(^)(id obj))block`
+* [MGAGrepTask](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAGrepTask)
+    * Easily run a grep sub process - I know, it should be implemented natively...
+        * `- (NSArray *)grepFile:(NSString *)path forReges:(NSString *)regex`
+        * `- (NSArray *)egrepFile:(NSString *)path forReges:(NSString *)regex`
+        * `- (NSArray *)fgrepFile:(NSString *)path forReges:(NSString *)regex`
