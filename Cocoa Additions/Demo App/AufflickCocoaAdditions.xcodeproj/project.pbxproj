@@ -14,6 +14,12 @@
 		6428262A12ADB6F9000EE4CC /* MGAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428262812ADB6F9000EE4CC /* MGAView.h */; };
 		6428262B12ADB6F9000EE4CC /* MGAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428262912ADB6F9000EE4CC /* MGAView.m */; };
 		6428262C12ADB6F9000EE4CC /* MGAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428262912ADB6F9000EE4CC /* MGAView.m */; };
+		6428266012ADBB98000EE4CC /* MGAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428265E12ADBB98000EE4CC /* MGAViewController.h */; };
+		6428266112ADBB98000EE4CC /* MGAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428265F12ADBB98000EE4CC /* MGAViewController.m */; };
+		6428266212ADBB98000EE4CC /* MGAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428265F12ADBB98000EE4CC /* MGAViewController.m */; };
+		64282EC412B1ECF6000EE4CC /* MGAGrepTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */; };
+		64282EC512B1ECF6000EE4CC /* MGAGrepTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 64282EC212B1ECF6000EE4CC /* MGAGrepTask.h */; };
+		64282EC612B1ECF6000EE4CC /* MGAGrepTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */; };
 		6458166112533B1B0069A51C /* NSData+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */; };
 		6458166212533B1B0069A51C /* NSData+Aufflick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6458165F12533B1B0069A51C /* NSData+Aufflick.h */; };
 		6458166312533B1B0069A51C /* NSData+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */; };
@@ -55,10 +61,15 @@
 		6422A53610AC1A1800F06492 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnitTests-Info.plist"; path = "Scaffolding/UnitTests-Info.plist"; sourceTree = "<group>"; };
 		6428262812ADB6F9000EE4CC /* MGAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAView.h; sourceTree = "<group>"; };
 		6428262912ADB6F9000EE4CC /* MGAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAView.m; sourceTree = "<group>"; };
+		6428265E12ADBB98000EE4CC /* MGAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAViewController.h; sourceTree = "<group>"; };
+		6428265F12ADBB98000EE4CC /* MGAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAViewController.m; sourceTree = "<group>"; };
+		64282EC212B1ECF6000EE4CC /* MGAGrepTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAGrepTask.h; path = ../MGAGrepTask/MGAGrepTask.h; sourceTree = "<group>"; };
+		64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAGrepTask.m; path = ../MGAGrepTask/MGAGrepTask.m; sourceTree = "<group>"; };
 		6458165F12533B1B0069A51C /* NSData+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Aufflick.h"; path = "../NSData+Aufflick/NSData+Aufflick.h"; sourceTree = "<group>"; };
 		6458166012533B1B0069A51C /* NSData+Aufflick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Aufflick.m"; path = "../NSData+Aufflick/NSData+Aufflick.m"; sourceTree = "<group>"; };
 		645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Aufflick.h"; sourceTree = "<group>"; };
 		645FAC1E122F4033006E5B4A /* NSDate+Aufflick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Aufflick.m"; sourceTree = "<group>"; };
+		6482638F12B9DD0700B90E2D /* update_build_number.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = update_build_number.pl; path = ../BuildScripts/update_build_number.pl; sourceTree = "<group>"; };
 		64E2973611B6249800463AFB /* MGAAutoScrollToTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToTextField.h; path = ../MGAAutoScroll/MGAAutoScrollToTextField.h; sourceTree = "<group>"; };
 		64E2973711B6249800463AFB /* MGAAutoScrollToTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAAutoScrollToTextField.m; path = ../MGAAutoScroll/MGAAutoScrollToTextField.m; sourceTree = "<group>"; };
 		64E2975411B629C100463AFB /* MGAAutoScrollToButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAAutoScrollToButton.h; path = ../MGAAutoScroll/MGAAutoScrollToButton.h; sourceTree = "<group>"; };
@@ -103,7 +114,8 @@
 		0867D691FE84028FC02AAC07 /* AufflickCocoaAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				6428262212ADB6E1000EE4CC /* MGAView */,
+				64282EC012B1ECE2000EE4CC /* MGAGrepTask */,
+				6428262212ADB6E1000EE4CC /* MGAViewController */,
 				64E320561276955100AFDE57 /* MGAFunctionalAdditions */,
 				6458165E12533A9E0069A51C /* NSData+Aufflick */,
 				64E2975311B629A900463AFB /* Mac GUI */,
@@ -168,6 +180,7 @@
 		6422A4C910AC153000F06492 /* Scaffolding */ = {
 			isa = PBXGroup;
 			children = (
+				6482638F12B9DD0700B90E2D /* update_build_number.pl */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				6422A4D710AC158500F06492 /* NSString+Levenshtein Unit Test-Info.plist */,
@@ -198,15 +211,26 @@
 			name = "Unit tests";
 			sourceTree = "<group>";
 		};
-		6428262212ADB6E1000EE4CC /* MGAView */ = {
+		6428262212ADB6E1000EE4CC /* MGAViewController */ = {
 			isa = PBXGroup;
 			children = (
 				6428262812ADB6F9000EE4CC /* MGAView.h */,
 				6428262912ADB6F9000EE4CC /* MGAView.m */,
+				6428265E12ADBB98000EE4CC /* MGAViewController.h */,
+				6428265F12ADBB98000EE4CC /* MGAViewController.m */,
 			);
-			name = MGAView;
+			name = MGAViewController;
 			path = ../MGAView;
 			sourceTree = SOURCE_ROOT;
+		};
+		64282EC012B1ECE2000EE4CC /* MGAGrepTask */ = {
+			isa = PBXGroup;
+			children = (
+				64282EC212B1ECF6000EE4CC /* MGAGrepTask.h */,
+				64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */,
+			);
+			name = MGAGrepTask;
+			sourceTree = "<group>";
 		};
 		6458165E12533A9E0069A51C /* NSData+Aufflick */ = {
 			isa = PBXGroup;
@@ -261,6 +285,8 @@
 				64E3205E1276966400AFDE57 /* MGAFunctionalAdditions.h in Headers */,
 				64E32063127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h in Headers */,
 				6428262A12ADB6F9000EE4CC /* MGAView.h in Headers */,
+				6428266012ADBB98000EE4CC /* MGAViewController.h in Headers */,
+				64282EC512B1ECF6000EE4CC /* MGAGrepTask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "AufflickCocoaAdditions" */;
 			buildPhases = (
+				648263A712B9DD9E00B90E2D /* Update Build Number */,
 				8DC2EF500486A6940098B216 /* Headers */,
 				8DC2EF520486A6940098B216 /* Resources */,
 				8DC2EF540486A6940098B216 /* Sources */,
@@ -363,6 +390,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		648263A712B9DD9E00B90E2D /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/perl ../BuildScripts/update_build_number.pl Scaffolding/Info.plist";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,6 +418,8 @@
 				6458166112533B1B0069A51C /* NSData+Aufflick.m in Sources */,
 				64E32065127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */,
 				6428262C12ADB6F9000EE4CC /* MGAView.m in Sources */,
+				6428266212ADBB98000EE4CC /* MGAViewController.m in Sources */,
+				64282EC412B1ECF6000EE4CC /* MGAGrepTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +432,8 @@
 				6458166312533B1B0069A51C /* NSData+Aufflick.m in Sources */,
 				64E32064127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m in Sources */,
 				6428262B12ADB6F9000EE4CC /* MGAView.m in Sources */,
+				6428266112ADBB98000EE4CC /* MGAViewController.m in Sources */,
+				64282EC612B1ECF6000EE4CC /* MGAGrepTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +511,7 @@
 				HEADER_SEARCH_PATHS = "../**";
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.5;
 			};
 			name = Debug;
 		};
@@ -478,7 +523,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.5;
 			};
 			name = Release;
 		};
