@@ -49,6 +49,6 @@ Cocoa Additions
         * `- (NSArray *)mga_map:(id(^)(id obj))block`
 * [MGAGrepTask](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAGrepTask)
     * Easily run a grep sub process - I know, it should be implemented natively...
-        * `- (NSArray *)grepFile:(NSString *)path forReges:(NSString *)regex`
-        * `- (NSArray *)egrepFile:(NSString *)path forReges:(NSString *)regex`
-        * `- (NSArray *)fgrepFile:(NSString *)path forReges:(NSString *)regex`
+        * `- (NSArray *)grepFile:(NSString *)path forRegex:(NSString *)regex`
+        * `- (NSArray *)egrepFile:(NSString *)path forRegex:(NSString *)regex`
+        * `- (NSArray *)fgrepFile:(NSString *)path forRegex:(NSString *)regex`
