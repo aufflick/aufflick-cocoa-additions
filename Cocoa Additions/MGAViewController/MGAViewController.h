@@ -7,10 +7,18 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MGAView.h"
 
+@class MGAWindowController;
 
 @interface MGAViewController : NSViewController
 {
+    MGAWindowController *windowController;
 }
+
+@property (assign) MGAWindowController *windowController;
+
+- (void)windowWillShow;
+- (void)windowWillClose:(NSNotification *)notification;
 
 @end
