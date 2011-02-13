@@ -45,6 +45,7 @@ Cocoa Additions
     * `- (NSDate *)MGA_stripTimeComponent`
     * `- (NSDate *)MGA_addMonths:(NSInteger)months`
 * [MGAFunctionalAdditions](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAFunctionalAdditions)
+    * NB: probably just ignore these and use [Mike Ash's MACollectionUtilities](https://github.com/mikeash/MACollectionUtilities)
     * NSArray Category
         * `- (NSArray *)mga_map:(id(^)(id obj))block`
 * [MGAGrepTask](aufflick-cocoa-additions/tree/master/Cocoa Additions/MGAGrepTask)
