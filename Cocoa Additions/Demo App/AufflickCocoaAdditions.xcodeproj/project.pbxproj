@@ -20,6 +20,11 @@
 		64282EC412B1ECF6000EE4CC /* MGAGrepTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */; };
 		64282EC512B1ECF6000EE4CC /* MGAGrepTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 64282EC212B1ECF6000EE4CC /* MGAGrepTask.h */; };
 		64282EC612B1ECF6000EE4CC /* MGAGrepTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */; };
+		643703411307B37500BC2F4F /* MGAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643703401307B37500BC2F4F /* MGAWindowController.m */; };
+		643703421307B37500BC2F4F /* MGAWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6437033F1307B37500BC2F4F /* MGAWindowController.h */; };
+		643703431307B37500BC2F4F /* MGAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643703401307B37500BC2F4F /* MGAWindowController.m */; };
+		643703531307B4AD00BC2F4F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 643703521307B4AD00BC2F4F /* README.txt */; };
+		643703541307B4AD00BC2F4F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 643703521307B4AD00BC2F4F /* README.txt */; };
 		6458166112533B1B0069A51C /* NSData+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */; };
 		6458166212533B1B0069A51C /* NSData+Aufflick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6458165F12533B1B0069A51C /* NSData+Aufflick.h */; };
 		6458166312533B1B0069A51C /* NSData+Aufflick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6458166012533B1B0069A51C /* NSData+Aufflick.m */; };
@@ -65,6 +70,9 @@
 		6428265F12ADBB98000EE4CC /* MGAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAViewController.m; sourceTree = "<group>"; };
 		64282EC212B1ECF6000EE4CC /* MGAGrepTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAGrepTask.h; path = ../MGAGrepTask/MGAGrepTask.h; sourceTree = "<group>"; };
 		64282EC312B1ECF6000EE4CC /* MGAGrepTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAGrepTask.m; path = ../MGAGrepTask/MGAGrepTask.m; sourceTree = "<group>"; };
+		6437033F1307B37500BC2F4F /* MGAWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAWindowController.h; sourceTree = "<group>"; };
+		643703401307B37500BC2F4F /* MGAWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAWindowController.m; sourceTree = "<group>"; };
+		643703521307B4AD00BC2F4F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../MGAFunctionalAdditions/README.txt; sourceTree = SOURCE_ROOT; };
 		6458165F12533B1B0069A51C /* NSData+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Aufflick.h"; path = "../NSData+Aufflick/NSData+Aufflick.h"; sourceTree = "<group>"; };
 		6458166012533B1B0069A51C /* NSData+Aufflick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Aufflick.m"; path = "../NSData+Aufflick/NSData+Aufflick.m"; sourceTree = "<group>"; };
 		645FAC1D122F4033006E5B4A /* NSDate+Aufflick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Aufflick.h"; sourceTree = "<group>"; };
@@ -214,13 +222,15 @@
 		6428262212ADB6E1000EE4CC /* MGAViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6437033F1307B37500BC2F4F /* MGAWindowController.h */,
+				643703401307B37500BC2F4F /* MGAWindowController.m */,
 				6428262812ADB6F9000EE4CC /* MGAView.h */,
 				6428262912ADB6F9000EE4CC /* MGAView.m */,
 				6428265E12ADBB98000EE4CC /* MGAViewController.h */,
 				6428265F12ADBB98000EE4CC /* MGAViewController.m */,
 			);
 			name = MGAViewController;
-			path = ../MGAView;
+			path = ../MGAViewController;
 			sourceTree = SOURCE_ROOT;
 		};
 		64282EC012B1ECE2000EE4CC /* MGAGrepTask */ = {
@@ -268,6 +278,7 @@
 				64E3205C1276966400AFDE57 /* MGAFunctionalAdditions.h */,
 				64E32061127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.h */,
 				64E32062127696A600AFDE57 /* NSArray+MGAFunctionalAdditions.m */,
+				643703521307B4AD00BC2F4F /* README.txt */,
 			);
 			name = MGAFunctionalAdditions;
 			sourceTree = "<group>";
@@ -287,6 +298,7 @@
 				6428262A12ADB6F9000EE4CC /* MGAView.h in Headers */,
 				6428266012ADBB98000EE4CC /* MGAViewController.h in Headers */,
 				64282EC512B1ECF6000EE4CC /* MGAGrepTask.h in Headers */,
+				643703421307B37500BC2F4F /* MGAWindowController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643703541307B4AD00BC2F4F /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				643703531307B4AD00BC2F4F /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +434,7 @@
 				6428262C12ADB6F9000EE4CC /* MGAView.m in Sources */,
 				6428266212ADBB98000EE4CC /* MGAViewController.m in Sources */,
 				64282EC412B1ECF6000EE4CC /* MGAGrepTask.m in Sources */,
+				643703411307B37500BC2F4F /* MGAWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +449,7 @@
 				6428262B12ADB6F9000EE4CC /* MGAView.m in Sources */,
 				6428266112ADBB98000EE4CC /* MGAViewController.m in Sources */,
 				64282EC612B1ECF6000EE4CC /* MGAGrepTask.m in Sources */,
+				643703431307B37500BC2F4F /* MGAWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

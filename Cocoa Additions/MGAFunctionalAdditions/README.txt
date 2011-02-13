@@ -1,0 +1,1 @@
+Ignore these, and use Mike Ash's MACollectionUtilities instead: https://github.com/mikeash/MACollectionUtilities

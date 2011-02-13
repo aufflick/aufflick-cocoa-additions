@@ -2,12 +2,11 @@
 //  NSDate+Aufflick.m
 //
 //  Created by Mark Aufflick on 13/08/10.
-//  Copyright 2010 Pumptheory. All rights reserved.
 //
 
 /*
  
- Copyright (c) 2010, Mark Aufflick
+ Copyright (c) 2010, Pumptheory Pty Ltd and Mark Aufflick
  All rights reserved.
  
  Redistribution and use in source and binary forms, with or without

@@ -3,12 +3,11 @@
 //  AufflickCocoaAdditions
 //
 //  Created by Mark Aufflick on 2/06/10.
-//  Copyright 2010 pumptheory.com. All rights reserved.
 //
 
 /*
  
- Copyright (c) 2009, Mark Aufflick
+ Copyright (c) 2010, Mark Aufflick
  All rights reserved.
  
  Redistribution and use in source and binary forms, with or without
